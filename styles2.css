@@ -1,3 +1,19 @@
-#lottie1{
-    width: 20vw; 
+body {
+    font-family: 'Rammetto One', sans-serif;
+    overflow: hidden;
+  }
+
+  #lottie1{
+    width: 12.5vw;
+    height: auto;
+    position: absolute;
+    top: 10.1vw;
+    left: 66.25vw;
+}
+
+.rascunho{
+    width: 75vw;
+    display: block;
+    margin: 0 auto;
+    opacity: 70%;
 }
