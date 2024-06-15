@@ -1,3 +1,6 @@
-.lottie-emo{
+.lottie .emo{
     width: 40vw; 
+}
+.lottie:hover{
+    autoplay;
 }

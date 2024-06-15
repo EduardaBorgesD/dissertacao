@@ -1,6 +1,12 @@
+document.addEventListener('DOMContentLoaded', (event) => {
+    const player = document.getElementById('lottie-player');
 
+    player.addEventListener('mouseover', () => {
+        player.play();
+    });
 
-<script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" 
-type="module">
+    player.addEventListener('mouseout', () => {
+        player.stop();
+    });
+});
 
-</script> 
