@@ -1,12 +1,19 @@
 document.addEventListener('DOMContentLoaded', (event) => {
-    const player = document.getElementById('lottie-player');
+    const players = document.querySelectorAll('.lottie-player');
 
-    player.addEventListener('mouseover', () => {
-        player.play();
-    });
+    players.forEach(player => {
+        let isPlaying = false;
 
-    player.addEventListener('mouseout', () => {
-        player.stop();
+        player.addEventListener('mouseenter', () => {
+            if (!isPlaying) {
+                player.play();
+                isPlaying = true;
+            }
+        });
+
+        player.addEventListener('mouseleave', () => {
+            player.stop();
+            isPlaying = false;
+        });
     });
 });
-
