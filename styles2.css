@@ -3,7 +3,14 @@ body {
     overflow: hidden;
   }
 
-  #lottie1{
+.rascunho{
+    width: 75vw;
+    display: block;
+    margin: 0 auto;
+    opacity: 70%;
+}
+
+#lottie1{
     width: 12.5vw;
     height: auto;
     position: absolute;
@@ -11,9 +18,10 @@ body {
     left: 66.25vw;
 }
 
-.rascunho{
-    width: 75vw;
-    display: block;
-    margin: 0 auto;
-    opacity: 70%;
+#lottie2{
+    width: 12.9vw;
+    height: auto;
+    position: absolute;
+    top: 8.6vw;
+    left: 75.5vw;
 }
