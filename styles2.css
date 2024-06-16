@@ -4,24 +4,28 @@ body {
   }
 
 .rascunho{
-    width: 75vw;
+    width: 100vw;
+    height: auto;
+    top:0vw;
     display: block;
+    position: absolute;
     margin: 0 auto;
-    opacity: 70%;
+    opacity: 80%;
 }
 
 #lottie1{
     width: 12.5vw;
     height: auto;
     position: absolute;
-    top: 10.1vw;
-    left: 66.25vw;
+    top: 10.4vw;
+    left: 66.8vw;
+
 }
 
 #lottie2{
-    width: 12.9vw;
+    width: 13vw;
     height: auto;
     position: absolute;
     top: 8.6vw;
-    left: 75.5vw;
+    left: 76vw;
 }
