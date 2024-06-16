@@ -26,6 +26,32 @@ body {
     width: 13vw;
     height: auto;
     position: absolute;
-    top: 8.6vw;
+    top: 8.67vw;
     left: 76vw;
+}
+
+.texto{
+    text-align: center;
+}
+
+.container-2{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+
+#lottie3{
+    width: 14.7vw;
+    height: auto;
+    position: absolute;
+    top: -0.68vw;
+    left: 72.7vw;
+}
+
+#lottie4{
+    width: 11.9vw;
+    height: auto;
+    position: absolute;
+    top: 3.62vw;
+    left: 58.1vw;
 }
