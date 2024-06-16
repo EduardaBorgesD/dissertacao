@@ -44,7 +44,7 @@ body {
     width: 14.7vw;
     height: auto;
     position: absolute;
-    top: -0.68vw;
+    top: -0.5vw;
     left: 72.7vw;
 }
 
@@ -54,4 +54,13 @@ body {
     position: absolute;
     top: 3.62vw;
     left: 58.1vw;
+}
+
+#lottie5{
+    width: 12.7vw;
+    height: auto;
+    position: absolute;
+    top: 2.1vw;
+    left: 66.4vw;
+    
 }
