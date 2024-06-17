@@ -3,6 +3,8 @@ body, html {
     padding: 0;
     width: 100%;
     height: 100%;
+    font-family: 'Rammetto One', sans-serif;
+    overflow: hidden;
 }
 
 .container {
@@ -10,7 +12,7 @@ body, html {
     justify-content: center;
     align-items: flex-end;
     width: 100%;
-    height: 100%;
+    height: 52vw;
     position: absolute;
 }
 
@@ -21,4 +23,13 @@ body, html {
 
 #alvaromeio{
     display: none;
+}
+
+.bolha{
+    width: 50vw;
+    height: auto;
+}
+
+.texto{
+    text-align: center;
 }

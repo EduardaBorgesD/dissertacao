@@ -1,18 +1,31 @@
 var animationRestarted = false;
+var pressStartTime = null;
+var pressTimeout = null;
 
 document.addEventListener('keydown', function(event) {
     if (event.code === 'Space') {
-        document.getElementById('alvaroinicio').style.display = 'none';
-        document.getElementById('alvaromeio').style.display = 'block';
         if (!animationRestarted) {
+            document.getElementById('alvaroinicio').style.display = 'none';
+            document.getElementById('alvaromeio').style.display = 'block';
             Restart();
             animationRestarted = true;
+        }
+        
+        if (pressStartTime === null) {
+            pressStartTime = Date.now();
+            pressTimeout = setTimeout(function() {
+                console.log('ola');
+                document.getElementById('alvarobolha').style.display = 'block';
+            }, 3000);
         }
     }
 });
 
 document.addEventListener('keyup', function(event) {
     if (event.code === 'Space') {
+        clearTimeout(pressTimeout);
+        pressStartTime = null;
+        
         document.getElementById('alvaroinicio').style.display = 'block';
         document.getElementById('alvaromeio').style.display = 'none';
         animationRestarted = false;
