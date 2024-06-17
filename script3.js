@@ -37,3 +37,4 @@ function Restart(){
     var newSVG = svg.cloneNode(true);
     svg.parentNode.replaceChild(newSVG, svg);
 }
+
