@@ -18,5 +18,4 @@ function Restart(){
     var svg = document.getElementById('alvaromeio');
     var newSVG = svg.cloneNode(true);
     svg.parentNode.replaceChild(newSVG, svg);
-    
 }
