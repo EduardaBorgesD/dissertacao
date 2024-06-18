@@ -15,7 +15,9 @@ document.addEventListener('keydown', function(event) {
             pressStartTime = Date.now();
             pressTimeout = setTimeout(function() {
                 console.log('ola');
+
                 document.getElementById('alvarobolha').style.display = 'block';
+                document.getElementById('alvarobolha').classList.add('bolhadepois');
             }, 3000);
         }
     }
