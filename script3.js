@@ -1,6 +1,8 @@
 var animationRestarted = false;
 var pressStartTime = null;
 var pressTimeout = null;
+var selectedSvgId = null;
+
 
 document.addEventListener('keydown', function(event) {
     if (event.code === 'Space') {
@@ -16,8 +18,10 @@ document.addEventListener('keydown', function(event) {
             pressTimeout = setTimeout(function() {
                 console.log('ola');
 
-                document.getElementById('alvarobolha').style.display = 'block';
-                document.getElementById('alvarobolha').classList.add('bolhadepois');
+                showRandomSvg();
+                if (selectedSvgId) {
+                    document.getElementById(selectedSvgId).classList.add('bolhadepois')
+                }
             }, 3000);
         }
     }
@@ -39,4 +43,23 @@ function Restart(){
     var newSVG = svg.cloneNode(true);
     svg.parentNode.replaceChild(newSVG, svg);
 }
+
+
+
+    const svgIds = ['alvarobolha', 'alvarobolha2', 'alvarobolha3', 'alvarobolha4', 'alvarobolha5'];
+
+    function getRandomSvgId() {
+        const randomIndex = Math.floor(Math.random() * svgIds.length);
+        return svgIds[randomIndex];
+    }
+
+    function showRandomSvg() {
+        svgIds.forEach(id => {
+            document.getElementById(id).style.display = 'none';
+        });
+
+        selectedSvgId = getRandomSvgId();
+        document.getElementById(selectedSvgId).style.display = 'block';
+    }
+;
 
