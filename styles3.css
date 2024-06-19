@@ -35,7 +35,6 @@ body, html {
 }
 
 .bolhadepois {
-    width: 10vw;
     height: auto;
     animation: floatUp 5s ease-in-out forwards;
     position: relative;
@@ -47,7 +46,6 @@ body, html {
 }
 
 @keyframes floatUp {
-    from {top: 0px;}
-    to {top: calc(-50vw);}
+    from {top: -20vw; width: 5vw;}
+    to {top: calc(-50vw); width: 10vw;}
     }
-
