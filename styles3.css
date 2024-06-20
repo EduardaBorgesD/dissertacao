@@ -45,7 +45,37 @@ body, html {
     fill: url(#grad1);
 }
 
+
+:root {
+    --esq-vw: -20vw;
+}
+
+:root {
+    --tam-vw: 8vw;
+}
+
 @keyframes floatUp {
-    from {top: -20vw; width: 5vw;}
-    to {top: calc(-50vw); width: 10vw;}
+    0% {
+        top: -20vw;
+        width: 5vw;
+        left: 0vw;
     }
+    20% {
+        left: -4vw;
+    }
+    42% {
+        left: 2vw;
+    
+    }
+    57% {
+        left: -2vw;
+    
+    }
+
+    100% {
+        top: calc(-50vw);
+        width: var(--tam-vw);
+        left: var(--esq-vw);
+    }
+}
+

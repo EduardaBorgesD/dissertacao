@@ -60,6 +60,14 @@ function Restart(){
 
         selectedSvgId = getRandomSvgId();
         document.getElementById(selectedSvgId).style.display = 'block';
-    }
-;
+    };
 
+document.addEventListener('DOMContentLoaded', function() {
+    var esqVW = Math.random() * 40;
+    document.documentElement.style.setProperty('--esq-vw', esqVW + 'vw');
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+    var tamVW = Math.random() * 15;
+    document.documentElement.style.setProperty('--tam-vw', tamVW + 'vw');
+});
