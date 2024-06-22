@@ -46,13 +46,13 @@ function Restart(){
 
 
 
-    const svgIds = ['alvarobolha', 'alvarobolha2', 'alvarobolha3', 'alvarobolha4', 'alvarobolha5'];
+const svgIds = ['alvarobolha', 'alvarobolha2', 'alvarobolha3', 'alvarobolha4', 'alvarobolha5'];
 
     function getRandomSvgId() {
         const randomIndex = Math.floor(Math.random() * svgIds.length);
         return svgIds[randomIndex];
     }
-
+    
     function showRandomSvg() {
         svgIds.forEach(id => {
             document.getElementById(id).style.display = 'none';
@@ -68,6 +68,6 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 document.addEventListener('DOMContentLoaded', function() {
-    var tamVW = Math.random() * 15;
+    var tamVW = Math.random() * 25;
     document.documentElement.style.setProperty('--tam-vw', tamVW + 'vw');
 });
