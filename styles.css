@@ -1,4 +1,4 @@
-/* Overall Overall Overall Overall Overall Overall Overall Overall */
+
 body {
   font-family: 'Rammetto One', sans-serif;
   overflow: hidden;
@@ -29,7 +29,7 @@ body {
   align-items: center;
 }
 
-/* Fernando Fernando Fernando Fernando Fernando Fernando Fernando*/
+
 .nando {
   font-size: 8vw; 
   position: relative;
@@ -57,8 +57,6 @@ body {
 }
 
 
-
-/* Alberto Alberto Alberto Alberto Alberto Alberto Alberto Alberto */
 .img_alberto img {
   position: absolute;
   top: 1vw; 
@@ -85,7 +83,6 @@ body {
 }
 
 
-/* Alvaro Alvaro Alvaro Alvaro Alvaro Alvaro Alvaro Alvaro */
 .img_alvaro img {
   position: absolute;
   top: 0.2vw; 
@@ -112,7 +109,7 @@ body {
 }
 
 
-/* Ricardo Ricardo Ricardo Ricardo Ricardo Ricardo Ricardo Ricardo */
+
 .img_ricardo img {
   position: absolute;
   top: 0.5vw; 

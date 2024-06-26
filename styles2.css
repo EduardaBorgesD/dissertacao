@@ -11,7 +11,44 @@ body {
     position: absolute;
     margin: 0 auto;
     opacity: 80%;
+    display: none;
 }
+
+.texto2{
+    text-align: center;
+    left: 29vw;
+    font-size: 2vw;
+}
+
+.texto3{
+    text-align: center;
+    left: 29vw;
+    font-size: 2vw;
+    display: none;
+}
+
+.texto4{
+    text-align: center;
+    left: 29vw;
+    font-size: 2vw;
+    display: none;
+}
+
+.texto5{
+    text-align: center;
+    left: 29vw;
+    font-size: 2vw;
+    display: none;
+}
+
+.texto6{
+    text-align: center;
+    left: 29vw;
+    font-size: 2vw;
+    display: none;
+}
+
+
 
 #lottie1{
     width: 12.5vw;
@@ -30,14 +67,10 @@ body {
     left: 76vw;
 }
 
-.texto2{
-    text-align: center;
-    left: 20vw;
-}
 
 .container-2{
     position: absolute;
-    left: 38vw;
+    left: 40vw;
     top: 23vw;
 }
 
@@ -102,14 +135,6 @@ body {
     
 }
 
-#lottie10{
-    width: 11.7vw;
-    height: auto;
-    position: absolute;
-    top: 19.2vw;
-    left: 80.25vw;
-    
-}
 
 #lottie11{
     width: 10.3vw;
@@ -118,4 +143,37 @@ body {
     top: 11.98vw;
     left: 58.27vw;
     
+}
+
+#pessoa1{
+    width: 11.7vw;
+    height: auto;
+    position: absolute;
+    top: 19.2vw;
+    left: 80.25vw;
+    
+}
+
+#pessoa2{
+    width: 14.9vw;
+    height: auto;
+    position: absolute;
+    top: 16.9vw;
+    left: -1.40vw;
+}
+
+#pessoa3{
+    width: 9.85vw;
+    height: auto;
+    position: absolute;
+    top: 33.50vw;
+    left: 52.55vw;
+}
+
+#pessoa4{
+    width: 12.9vw;
+    height: auto;
+    position: absolute;
+    top: 29.25vw;
+    left: 10.68vw;
 }
